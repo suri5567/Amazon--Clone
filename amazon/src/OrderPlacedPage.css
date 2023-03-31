@@ -1,0 +1,40 @@
+
+
+.order-greeting-container {
+	display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #446ca5e8;
+    padding: 50px;
+    border-radius: 10px;
+    box-shadow: 17px -14px 5px 9px rgba(0, 0, 0, 0.2);
+	overflow: hidden;
+  }
+  
+  .order-greeting-header {
+	font-size: 45px;
+    font-weight: bold;
+    color: #b7e810fa;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  
+  .order-greeting-text {
+	font-size: 26px;
+    color: #0f1017;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+
+  .containIImage{
+	display: flex;
+	background-color: chartreuse;
+  }
+
+  #imgtap{
+	margin-left:60px;
+	margin-bottom: 5px;
+  }
+
+  

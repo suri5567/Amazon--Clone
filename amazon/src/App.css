@@ -1,0 +1,318 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+
+}
+
+.nav {
+	display: flex;
+	justify-content: space-between;
+	background-color: black;
+	height: 73px;
+	width: 100%;
+	position: sticky;
+}
+
+.nav img {
+	margin-top: 23px;
+	height: 49px;
+	width: 101px;
+	margin-left: 62px;
+}
+
+#search {
+	width: 634px;
+	margin-top: 11px;
+	border-radius: 4px;
+	height: 35px;
+	text-align: center;
+	font-size: 19px;
+}
+
+
+.secondNavBar {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	height: 53px;
+	width: 390px;
+	margin-right: 30px;
+	color: white;
+	font-size: 16px;
+	line-height: 12px;
+	margin-top: 10px;
+}
+
+.navFont {
+	font-size: 10px;
+}
+
+.searchIcon {
+	color: yellow;
+	height: 53px;
+	object-fit: cover;
+
+}
+
+.inpuASerach {
+	display: flex;
+	align-items: center;
+
+
+}
+
+.searchIcon {
+	height: 37px;
+}
+
+.main {
+	display: grid;
+	grid-template-columns: repeat(5, 1fr);
+	grid-gap: 10px;
+	grid-template-rows: repeat(4, 1fr);
+	height: 100vh;
+	width: 100%;
+	align-tracks: end, start, end, space-between;
+	justify-content: center;
+
+
+}
+
+.productsImg {
+	height: 291px;
+	width: 249px;
+	padding: 49px;
+}
+
+
+.productTitle {
+	height: 50px;
+	text-align: center;
+	color: midnightblue;
+
+
+}
+
+.productPrice {
+	text-align: center;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: bolder;
+	font-size: larger;
+	color: blue;
+}
+
+.ProductContainer {
+	height: 50vh;
+	width: 100%;
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	text-align: center;
+}
+
+.productImage img {
+	height: 100%;
+}
+
+.productsImg:hover {
+	transform: scale(1.2);
+	/* width: 300px;
+	height: 150px; */
+	/* margin: 20px auto; */
+	transition: 1000ms linear ease-in-out;
+}
+
+.productDescription {
+	width: 100px;
+}
+
+.buttonSection {
+	width: 100px;
+}
+
+#btn:hover {
+	background-color: chartreuse;
+	transform: scale(1.2);
+}
+
+
+.product-container {
+	display: flex;
+	flex-direction: row;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	border: 1px solid #ccc;
+}
+
+.product-image {
+	flex: 1;
+	margin-right: 20px;
+}
+
+.product-image img {
+	max-width: 100%;
+	height: 510px;
+}
+
+.product-details {
+	flex: 2 1;
+	margin-left: 20px;
+	align-self: start;
+	flex-direction: row;
+}
+
+.product-details h1 {
+	font-size: 38px;
+	margin-bottom: 10px;
+}
+
+.product-details p {
+	font-size: 20px;
+	margin-bottom: 10px;
+	padding-right: 236px;
+
+}
+
+.product-details button {
+	background-color: #baae00;
+	color: white;
+	padding: 10px;
+	border: none;
+	border-radius: 5px;
+	font-size: 16px;
+	cursor: pointer;
+	margin-right: 10px;
+}
+
+.product-details button:hover {
+	background-color: #006B8E;
+}
+
+.descript {
+	width: 100px;
+	height: 100px;
+}
+
+.descript p {
+	text-align: justify;
+}
+
+#price {
+	color: blue;
+	font-weight: bolder;
+}
+
+.icon-style {
+	display: flex;
+	gap: 0.2rem;
+	align-items: center;
+	justify-content: flex-start;
+}
+
+.icon {
+	font-size: 2rem;
+	color: orange;
+}
+
+.empty-icon {
+	font-size: 2.6rem;
+}
+
+p {
+	margin: 0;
+	padding-left: 1.2rem;
+}
+
+.incrementBtn {
+	display: flex;
+	margin-top: 32px;
+	margin-bottom: 23px;
+	margin-left: 16px;
+
+
+}
+
+.incrementBtn button {
+	background-color: burlywood;
+	border-radius: 5px;
+	margin-left: 10px;
+
+}
+
+.increment {
+	background-color: green;
+	color: white;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	margin-right: 1rem;
+	text-align: center;
+}
+
+.decrement {
+	background-color: red;
+	color: white;
+	font-size: 1.5rem;
+	border: none;
+	border-radius: 50%;
+	width: 2rem;
+	height: 2rem;
+	margin-left: 10px;
+	margin-right: 1rem;
+	text-align: center;
+}
+
+#count {
+	font-size: 18px;
+	font-weight: bolder;
+}
+
+#Qty {
+	margin-right: 8px;
+	font-weight: bolder;
+
+}
+
+#imageItem {
+	height: 100px;
+}
+
+@media (min-width: 1025px) {
+	.h-custom {
+		height: 100vh !important;
+	}
+}
+
+#btn {
+	margin-bottom: 17px;
+	padding: 5px;
+	border-radius: 6px;
+	background-color: #ffd307;
+	transition: 1000ms linear ease-in-out;
+	width: 181px;
+
+}
+
+#spanCount {
+	background-color: yellow;
+	color: black;
+	border-radius: 50%;
+	padding: 5px;
+	margin-bottom: 31px;
+	margin-left: -93px;
+	font-weight: bolder;
+}
+
+#signIn{
+	cursor: pointer;
+}
+
+#signIn:hover{
+	font-size: 20px;
+	color:chartreuse;
+
+}
